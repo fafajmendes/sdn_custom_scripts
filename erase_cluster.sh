@@ -22,5 +22,6 @@ do
 		docker container rm -f $cont_name >> /dev/null	#remove that container
 		
 		echo "Done"
+		print
 	fi
 done
